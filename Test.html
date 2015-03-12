@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.moodle.tum.de/" />
+<title>Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test</td></tr>
+</thead><tbody>
+<!--Aktivität "Test" anlegen und Enddatum als 31 des Monats auswählen-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Automated Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.section-modchooser-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=module_quiz</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_name</td>
+	<td>Test</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_introeditoreditable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_introeditor</td>
+	<td>No</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Zeit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_timeopen_enabled</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_timeclose_enabled</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_timeclose_day</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_timeclose_day</td>
+	<td>label=31</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='id_timeclose_day']/option[20]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=id_submitbutton</td>
+	<td></td>
+</tr>
+<!--Multiple Choise Frage hinzufügen-->
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.singlebutton &gt; form &gt; div &gt; input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Hinzufügen</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Frage hinzufügen...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qtype_qtype_multichoice</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=name</td>
+	<td>Multiple Choise</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_questiontexteditable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=questiontext[text]</td>
+	<td>Nur ein Antwort ist richtig!</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='id_answer_0editable']/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=answer[0][text]</td>
+	<td>A</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=fraction[0]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=fraction[0]</td>
+	<td>label=100%</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//select[@id='id_fraction_0']/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='id_answer_1editable']/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=answer[1][text]</td>
+	<td>B</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='id_answer_2editable']/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=answer[2][text]</td>
+	<td>C</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='id_answer_3editable']/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=answer[3][text]</td>
+	<td>D</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<!--Wahr/Falsch Frage hinzufügen-->
+<tr>
+	<td>click</td>
+	<td>link=Hinzufügen</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Frage hinzufügen...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qtype_qtype_truefalse</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=name</td>
+	<td>Wahr oder Falsch</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_questiontexteditable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=questiontext[text]</td>
+	<td>Was bin ich?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='id_feedbacktrueeditable']/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=feedbacktrue[text]</td>
+	<td>Ich bin Informatikerin</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_feedbackfalseeditable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=feedbackfalse[text]</td>
+	<td>Ich bin Lehrerin</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=correctanswer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=correctanswer</td>
+	<td>label=Wahr</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/select/option[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_generalfeedbackeditable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<!--Kurzantwort Frage hinzufügen-->
+<tr>
+	<td>click</td>
+	<td>link=Hinzufügen</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Frage hinzufügen...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qtype_qtype_truefalse</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qtype_qtype_truefalse</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qtype_qtype_shortanswer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=name</td>
+	<td>Kurzantwort</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_questiontexteditable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=questiontext[text]</td>
+	<td>Wo studierst du?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=answer[0]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=answer[0]</td>
+	<td>TUM</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=fraction[0]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=fraction[0]</td>
+	<td>label=100%</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=answer[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=answer[1]</td>
+	<td>LMU</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=answer[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=answer[2]</td>
+	<td>Uni Augsburg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

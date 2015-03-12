@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.moodle.tum.de/" />
+<title>Feedback</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Feedback</td></tr>
+</thead><tbody>
+<!--Aktivität "Feedback" anlegen-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Automated Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.section-modchooser-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=module_feedback</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_name</td>
+	<td>Feedback</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_introeditor</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_introeditor</td>
+	<td>Test Feedback</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Verfügbarkeit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=timeopen[enabled]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=id_submitbutton</td>
+	<td></td>
+</tr>
+<!--Elemente bearbeiten -> Inhalt hinzüfugen-->
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a[title=&quot;Elemente bearbeiten&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>id=id_typ</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>name=typ</td>
+	<td>label=Multiple-Choice</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=name</td>
+	<td>Gefällt Ihnen diesen Kurs?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=values</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=values</td>
+	<td>Ja, sehr!<br />Ja!<br />Neutral<br />Nein<br />Nein, gar nicht!</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=save_item</td>
+	<td></td>
+</tr>
+<!--Feedback ausfüllen-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Automated Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='settingsnav']/ul/li[2]/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Student</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Feedback</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Formular ausfüllen...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//li[3]/span/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=savevalues</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.continuebutton &gt; form &gt; div &gt; input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Zurück zur Ausgangsrolle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.singlebutton &gt; form &gt; div &gt; input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

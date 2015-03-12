@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.moodle.tum.de/" />
+<title>Abstimmung</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Abstimmung</td></tr>
+</thead><tbody>
+<!--Aktivität "Abstimmung" anlegen mit drei Auswahlmöglichkeiten-->
+<tr>
+	<td>click</td>
+	<td>css=span.section-modchooser-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=module_choice</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_name</td>
+	<td>Abstimmung</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_introeditor</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_introeditor</td>
+	<td>Test Abstimmung</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_option_0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_option_0</td>
+	<td>Gut</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_option_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_option_1</td>
+	<td>Schlecht</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_option_2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_option_2</td>
+	<td>Ok</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=id_submitbutton</td>
+	<td></td>
+</tr>
+<!--Abstimmung nutzen -->
+<tr>
+	<td>click</td>
+	<td>id=choice_2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a[title=&quot;Automated Testing&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
