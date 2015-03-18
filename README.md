@@ -8,4 +8,4 @@ Vorbedingungen für die Tests:
 
 4.Kurs format ist auf Deutsch
 
-5.Es gibt schon mindestens 3 eingeschrieben Nutzer im Kurs.
+5.Es gibt schon mindestens 3 eingeschriebene Nutzer im Kurs.
