@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.moodle.tum.de/" />
+<title>Forum</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Forum</td></tr>
+</thead><tbody>
+<!--Aktivität "Forum" anlegen-->
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.singlebutton &gt; form &gt; div &gt; input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.section-modchooser-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=module_forum</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_name</td>
+	<td>Forum</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_introeditor</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_introeditor</td>
+	<td>Test Forum</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=id_submitbutton</td>
+	<td></td>
+</tr>
+<!--Neues Thema im Forum hizufügen-->
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#newdiscussionform &gt; div &gt; input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_subject</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_subject</td>
+	<td>Hello World</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_message</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_message</td>
+	<td>Test message</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=id_submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Weiter</td>
+	<td></td>
+</tr>
+<!--Antwort in Forum Thema schreiben-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Hello World</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Antworten</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_message</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_message</td>
+	<td>Reply to Hello World Topic</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=id_submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Weiter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Automated Testing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.singlebutton &gt; form &gt; div &gt; input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
