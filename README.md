@@ -1,4 +1,4 @@
-Selenium Test für Moodle
+Selenium Tests für Moodle
 ========================
 Die Tests umfassen verschiedene Bereiche von Moodle.
 Die einzelnen Testbereiche sind in Test Suiten zusammengefasst.
