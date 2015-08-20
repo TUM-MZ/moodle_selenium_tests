@@ -1,6 +1,6 @@
 Selenium Test für Moodle
 ========================
-Die Test umfassen verschiedene Bereiche von Moodle.
+Die Tests umfassen verschiedene Bereiche von Moodle.
 Die einzelnen Testbereiche sind in Test Suiten zusammengefasst.
 
 Moodle-Version für die Tests
